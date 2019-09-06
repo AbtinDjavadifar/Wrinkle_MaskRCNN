@@ -17,43 +17,52 @@ annotations = [f for f in os.listdir(annotations_path) if f.endswith(".png")]
 
 for i in range(len(annotations)):
 
-    im = imageio.imread(os.path.join(annotations_path + annotations[i]))
-    im = np.array(im)
+    try:
 
-    new_im = im.reshape((im.shape[0]*im.shape[1]), im.shape[2])
-    unq = np.unique(new_im, axis=0)
+        im = imageio.imread(os.path.join(annotations_path + annotations[i]))
+        im = np.array(im)
 
-    gripper_mask = np.zeros([np.shape(im)[0], np.shape(im)[1]])
-    fabric_mask = np.zeros([np.shape(im)[0], np.shape(im)[1]])
-    wrinkle_mask = np.zeros([np.shape(im)[0], np.shape(im)[1]])
+        new_im = im.reshape((im.shape[0]*im.shape[1]), im.shape[2])
+        unq = np.unique(new_im, axis=0)
 
-    for x in range(np.shape(im)[0]):
+        gripper_mask = np.zeros([np.shape(im)[0], np.shape(im)[1]])
+        fabric_mask = np.zeros([np.shape(im)[0], np.shape(im)[1]])
+        wrinkle_mask = np.zeros([np.shape(im)[0], np.shape(im)[1]])
 
-        for y in range(np.shape(im)[1]):
+        for x in range(np.shape(im)[0]):
 
-            if np.all(im[x,y] == unq[1]): #gripper
-                gripper_mask[x,y] = 1
+            for y in range(np.shape(im)[1]):
 
-            if np.all(im[x,y] == unq[2]): #wrinkle
-                wrinkle_mask[x,y] = 1
-                # gripper_mask[x,y] = 1
-                # fabric_mask[x,y] = 1
+                if np.all(im[x,y] == unq[1]): #gripper
+                    gripper_mask[x,y] = 1
 
-            if np.all(im[x,y] == unq[3]): #fabric
-                fabric_mask[x,y] = 1
-                # gripper_mask[x,y] = 1
+                if np.all(im[x,y] == unq[2]): #wrinkle
+                    wrinkle_mask[x,y] = 1
+                    # gripper_mask[x,y] = 1
+                    # fabric_mask[x,y] = 1
+
+                if np.all(im[x,y] == unq[3]): #fabric
+                    fabric_mask[x,y] = 1
+                    # gripper_mask[x,y] = 1
 
 
-    gripper_mask = gripper_mask.astype(int)*255
-    imageio.imwrite('{}{}_gripper_1.png'.format(masks_path, annotations[i][:-4]), gripper_mask.astype(np.uint8))
+        gripper_mask = gripper_mask.astype(int)*255
+        imageio.imwrite('{}{}_gripper_1.png'.format(masks_path, annotations[i][:-4]), gripper_mask.astype(np.uint8))
 
-    fabric_mask = fabric_mask.astype(int)*255
-    imageio.imwrite('{}{}_fabric_1.png'.format(masks_path, annotations[i][:-4]), fabric_mask.astype(np.uint8))
+        fabric_mask = fabric_mask.astype(int)*255
+        imageio.imwrite('{}{}_fabric_1.png'.format(masks_path, annotations[i][:-4]), fabric_mask.astype(np.uint8))
 
-    wrinkle_labels, num_wrinkle_labels = skimage.measure.label(wrinkle_mask, neighbors=8, return_num=True)
-    for k in range(1, num_wrinkle_labels + 1):
+        wrinkle_labels, num_wrinkle_labels = skimage.measure.label(wrinkle_mask, neighbors=8, return_num=True)
+        for k in range(1, num_wrinkle_labels + 1):
 
-        wrinkle_label = (wrinkle_labels == k).astype(int)*255
-        imageio.imwrite('{}{}_wrinkle_{}.png'.format(masks_path, annotations[i][:-4], str(k)), wrinkle_label.astype(np.uint8))
+            wrinkle_label = (wrinkle_labels == k).astype(int)*255
+            imageio.imwrite('{}{}_wrinkle_{}.png'.format(masks_path, annotations[i][:-4], str(k)), wrinkle_label.astype(np.uint8))
 
-    print("{} converted to masks".format(annotations[i]))
+        print("{} converted to masks".format(annotations[i]))
+
+    except IndexError:
+
+        brkn = open("broken.txt","w")
+        brkn.write(annotations[i] + "\n")
+        pass
+
