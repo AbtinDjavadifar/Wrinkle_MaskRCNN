@@ -1,0 +1,13 @@
+scikit-image
+Pillow
+scipy
+matplotlib
+numpy
+cython
+pycocotools
+imgaug
+
+# conda install -c conda-forge pycocotools
+
+# conda install -c anaconda pip
+# pip3 install imgaug
