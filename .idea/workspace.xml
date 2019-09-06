@@ -5,6 +5,8 @@
       <change afterPath="$PROJECT_DIR$/Mask_RCNN/samples/demo_wrinkle.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Mask_RCNN/samples/wrinkles/inspect_wrinkle_data.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Mask_RCNN/samples/wrinkles/inspect_wrinkle_model.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mask_RCNN" beforeDir="false" afterPath="$PROJECT_DIR$/Mask_RCNN" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mask_RCNN/samples/kidneys/inspect_kidney_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Mask_RCNN/samples/kidneys/inspect_kidney_data.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coco" beforeDir="false" afterPath="$PROJECT_DIR$/coco" afterDir="false" />
@@ -83,26 +85,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+        <entry file="file://$PROJECT_DIR$/Mask_RCNN/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-            </state>
+            <state relative-caret-position="-522" />
           </provider>
         </entry>
       </file>
@@ -147,8 +147,8 @@
         <option value="$PROJECT_DIR$/1_images2masks.py" />
         <option value="$PROJECT_DIR$/wrinkle_visualizer.py" />
         <option value="$PROJECT_DIR$/Mask_RCNN/samples/wrinkles/wrinkles.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -172,17 +172,6 @@
             <path>
               <item name="ICRAwrinkler" type="b2602c69:ProjectViewProjectNode" />
               <item name="ICRAwrinkler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ICRAwrinkler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ICRAwrinkler" type="462c0819:PsiDirectoryNode" />
-              <item name="Mask_RCNN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ICRAwrinkler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ICRAwrinkler" type="462c0819:PsiDirectoryNode" />
-              <item name="Mask_RCNN" type="462c0819:PsiDirectoryNode" />
-              <item name="mrcnn" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -339,8 +328,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903865" />
@@ -352,7 +342,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32804757" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32804757" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32903865" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -481,6 +471,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mask_RCNN/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Mask_RCNN/samples/wrinkles/wrinkles.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
@@ -490,13 +488,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
