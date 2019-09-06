@@ -9,9 +9,9 @@ import skimage
 
 
 
-images_path = '/home/aeroclub/PycharmProjects/ICRAwrinkler/data/images/'
-annotations_path = '/home/aeroclub/PycharmProjects/ICRAwrinkler/data/annotations/'
-masks_path = '/home/aeroclub/PycharmProjects/ICRAwrinkler/data/masks/'
+images_path = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/images/'
+annotations_path = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/annotations/'
+masks_path = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/masks/'
 annotations = [f for f in os.listdir(annotations_path) if f.endswith(".png")]
 
 

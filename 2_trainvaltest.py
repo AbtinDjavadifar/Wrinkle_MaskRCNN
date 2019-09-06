@@ -3,12 +3,12 @@ import shutil
 import random
 
 
-images_path = '/home/aeroclub/PycharmProjects/ICRAwrinkler/data/images/'
-annotations_path = '/home/aeroclub/PycharmProjects/ICRAwrinkler/data/annotations/'
+images_path = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/images/'
+annotations_path = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/annotations/'
 
-trainoutputdir = '/home/aeroclub/PycharmProjects/ICRAwrinkler/data/wrinkle_aws/train2019/'
-valoutputdir = '/home/aeroclub/PycharmProjects/ICRAwrinkler/data/wrinkle_aws/val2019/'
-testoutputdir = '/home/aeroclub/PycharmProjects/ICRAwrinkler/data/wrinkle_aws/test2019/'
+trainoutputdir = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/wrinkle_aws/train2019/'
+valoutputdir = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/wrinkle_aws/val2019/'
+testoutputdir = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/wrinkle_aws/test2019/'
 
 files = [file for file in os.listdir(annotations_path) if file.endswith(".png")]
 

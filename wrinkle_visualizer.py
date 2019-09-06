@@ -13,8 +13,8 @@ import skimage.io as io
 import matplotlib.pyplot as plt
 import pylab
 
-image_directory = '/home/aeroclub/PycharmProjects/ICRAwrinkler/data/wrinkle_aws/train2019/'
-annotation_file = '/home/aeroclub/PycharmProjects/ICRAwrinkler/data/wrinkle_aws/annotations/instances_train2019.json'
+image_directory = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/wrinkle_aws/train2019/'
+annotation_file = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/wrinkle_aws/annotations/instances_train2019.json'
 
 #%%
 example_coco = COCO(annotation_file)

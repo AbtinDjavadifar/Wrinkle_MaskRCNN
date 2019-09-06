@@ -10,10 +10,10 @@ import numpy as np
 import pycococreatortools
 
 
-VAL_DIR = '/home/aeroclub/PycharmProjects/ICRAwrinkler/data/wrinkle_aws/val2019/'
-TRAIN_DIR = '/home/aeroclub/PycharmProjects/ICRAwrinkler/data/wrinkle_aws/train2019/'
-MASK_DIR = '/home/aeroclub/PycharmProjects/ICRAwrinkler/data/masks/'
-ANNOTATION_DIR = '/home/aeroclub/PycharmProjects/ICRAwrinkler/data/wrinkle_aws/annotations/'
+VAL_DIR = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/wrinkle_aws/val2019/'
+TRAIN_DIR = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/wrinkle_aws/train2019/'
+MASK_DIR = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/masks/'
+ANNOTATION_DIR = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/wrinkle_aws/annotations/'
 
 INFO = {
     "description": "wrinkle AWS ",
