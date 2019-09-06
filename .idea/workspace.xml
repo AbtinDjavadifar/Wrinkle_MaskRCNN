@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df41e59b-e071-47e5-9f86-d16e6fea9455" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mask_RCNN/samples/demo_wrinkle.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mask_RCNN/samples/wrinkles/inspect_wrinkle_data.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mask_RCNN/samples/wrinkles/inspect_wrinkle_model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mask_RCNN" beforeDir="false" afterPath="$PROJECT_DIR$/Mask_RCNN" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mask_RCNN/samples/kidneys/inspect_kidney_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Mask_RCNN/samples/kidneys/inspect_kidney_data.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco" beforeDir="false" afterPath="$PROJECT_DIR$/coco" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco/MatlabAPI/private/gasonMex.mexa64" beforeDir="false" afterPath="$PROJECT_DIR$/coco/MatlabAPI/private/gasonMex.mexa64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco/MatlabAPI/private/gasonMex.mexmaci64" beforeDir="false" afterPath="$PROJECT_DIR$/coco/MatlabAPI/private/gasonMex.mexmaci64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco/MatlabAPI/private/maskApiMex.mexa64" beforeDir="false" afterPath="$PROJECT_DIR$/coco/MatlabAPI/private/maskApiMex.mexa64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coco/MatlabAPI/private/maskApiMex.mexmaci64" beforeDir="false" afterPath="$PROJECT_DIR$/coco/MatlabAPI/private/maskApiMex.mexmaci64" afterDir="false" />
-    </list>
+    <list default="true" id="df41e59b-e071-47e5-9f86-d16e6fea9455" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +11,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_images2masks.py">
+        <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/1_images2masks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="43" column="23" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="23" />
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#49#58#0" expanded="true" />
               </folding>
@@ -34,7 +23,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_trainvaltest.py">
+        <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/2_trainvaltest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
@@ -46,10 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3_masks2coco.py">
+        <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/3_masks2coco.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-861">
-              <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+              <caret line="15" column="84" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -58,7 +47,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wrinkle_visualizer.py">
+        <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/wrinkle_visualizer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
@@ -70,12 +59,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Training.sh">
+        <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/Training.sh">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mask_RCNN/samples/wrinkles/wrinkles.py">
+        <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/Mask_RCNN/samples/wrinkles/wrinkles.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1020">
               <caret line="86" column="66" selection-start-line="86" selection-start-column="66" selection-end-line="86" selection-end-column="66" />
@@ -84,28 +73,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="60">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.txt">
+        <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/README.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mask_RCNN/.gitignore">
+        <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/Mask_RCNN/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-522" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/0_renaming.py">
+        <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/0_renaming.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
@@ -147,6 +136,7 @@
         <option value="$PROJECT_DIR$/Mask_RCNN/samples/wrinkles/wrinkles.py" />
         <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/../Wrinkler_MaskRCNN/.gitignore" />
       </list>
     </option>
   </component>
@@ -168,12 +158,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="ICRAwrinkler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ICRAwrinkler" type="462c0819:PsiDirectoryNode" />
+              <item name="Wrinkler_MaskRCNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wrinkler_MaskRCNN" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ICRAwrinkler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ICRAwrinkler" type="462c0819:PsiDirectoryNode" />
+              <item name="Wrinkler_MaskRCNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wrinkler_MaskRCNN" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -417,6 +407,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -472,7 +463,7 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tensorflow-gpu setup.txt">
+    <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/tensorflow-gpu setup.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
@@ -482,7 +473,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
@@ -499,27 +490,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mask_RCNN/samples/wrinkles/inspect_wrinkle_data.ipynb">
+    <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/Mask_RCNN/samples/wrinkles/inspect_wrinkle_data.ipynb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-240">
           <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0_renaming.py">
+    <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/0_renaming.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mask_RCNN/samples/demo_wrinkle.ipynb">
+    <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/Mask_RCNN/samples/demo_wrinkle.ipynb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Training.sh">
+    <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/Training.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wrinkle_visualizer.py">
+    <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/wrinkle_visualizer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
@@ -529,17 +520,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_images2masks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="23" />
-          <folding>
-            <element signature="e#49#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_trainvaltest.py">
+    <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/2_trainvaltest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
@@ -549,35 +530,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3_masks2coco.py">
+    <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/3_masks2coco.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-861">
-          <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+          <caret line="15" column="84" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
+    <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/README.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mask_RCNN/.gitignore">
+    <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/Mask_RCNN/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-522" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mask_RCNN/samples/wrinkles/wrinkles.py">
+    <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/Mask_RCNN/samples/wrinkles/wrinkles.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="86" column="66" selection-start-line="86" selection-start-column="66" selection-end-line="86" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/1_images2masks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#49#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Wrinkler_MaskRCNN/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
