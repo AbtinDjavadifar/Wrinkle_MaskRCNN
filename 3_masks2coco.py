@@ -51,7 +51,7 @@ CATEGORIES = [
 ]
 
 def filter_for_jpeg(root, files):
-    file_types = ['*.jpeg', '*.jpg']
+    file_types = ['*.jpeg', '*.jpg', '*.png']
     file_types = r'|'.join([fnmatch.translate(x) for x in file_types])
     files = [os.path.join(root, f) for f in files]
     files = [f for f in files if re.match(file_types, f)]

@@ -14,6 +14,7 @@ annotations_path = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/annota
 masks_path = '/home/aeroclub/PycharmProjects/Wrinkler_MaskRCNN/data/masks/'
 annotations = [f for f in os.listdir(annotations_path) if f.endswith(".png")]
 
+brkn = open("broken.txt","w")
 
 for i in range(len(annotations)):
 
@@ -62,7 +63,6 @@ for i in range(len(annotations)):
 
     except IndexError:
 
-        brkn = open("broken.txt","w")
         brkn.write(annotations[i] + "\n")
         pass
 
